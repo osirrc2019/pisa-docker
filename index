@@ -151,7 +151,7 @@ def get_block_type(options):
 # Decides which method to use for generating the wand data
 def wand_command(name, wand_type, block_size, reordered):
     if wand_type == "variable":
-        print("Making variable-block wand data, lambda = " + str(get_lamba(name, reordered)))
+        print("Making variable-block wand data, lambda = " + str(get_lambda(name, reordered)))
         return (("create_wand_data "
                            "-c {0}.inv.bp "
                            "-l {1} "
