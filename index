@@ -91,7 +91,7 @@ def get_lambda(name, reordered):
             return 11
     else:
         if name.lower() == "cw12b":
-            return 25.5 # XXX JMM FIX ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            return 26
          else:
             print("Lambda unknown for default order and: " + name)
             print("Using default lambda = 11")
